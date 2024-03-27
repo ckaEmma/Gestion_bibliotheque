@@ -1,0 +1,17 @@
+Différents tests que vous pouvez réaliser :
+
+./mainLC GdeBiblio.txt 100 000
+
+-L'affichage
+-Insertion d'un livre (exemple : 100 Toto Tata)
+-Recherche par numéro (exemple : si vous avez insérer Toto, recherchez "100" et il vous donne bien le livre).Sinon, vous pouvez tester avec un numéro de votre choix ou bien un numéro qui n'existe pas (100 001).
+-Recherche par titre (idem qu'avec numéro)
+-Recherche par auteur (idem que les 2 précédents)
+-Suppression d'un ouvrage (exemple: si vous aviez inséré Toto, supprimez le et essayer de le rechercher selon le type de recherche de votre choix et vous verrez qu'il n'est plus dans la bibliothèque).
+-Recherche exemplaires : Pour une taille de 100 000, la réponse prend plusieurs secondes (10 secondes dans le cas de notre binôme).
+-Sauvegarde : si vous faites ./mainLC GdeBiblio.txt n où n<100000, la bibliothèque de taille n sera sauvegardée dans un autre fichier "test.txt".
+
+./mainH GdeBiblio.txt 29500 (tentez de faire 100 000 sur votre machine si vous avez de la place)
+
+Faites les mêmes choses qu'au dessus, mais TESTER notamment la recherche_exemplaire et vous verrez la différence de vitesse de réponse entre les 2 structures. Avec la table de hachage, c'est immédiat.
+
